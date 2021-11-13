@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="h2">Create Account</h2>
+        </div>
+        <form action="post"  id="form" class="form" novalidate>
+            <div class="form-control">
+                <label>Username: </label>
+                <input type="text"
+                placeholder="Enter user name" id="username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email: </label>
+                <input type="email"
+                placeholder="Enter user email" id="email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>password: </label>
+                <input type="password"
+                placeholder="Enter user password" id="password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Repeat password: </label>
+                <input type="password"
+                placeholder="repeat password" id="password2">
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="val.js"></script>
+</body>
+</html>
