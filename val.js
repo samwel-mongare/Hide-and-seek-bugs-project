@@ -6,10 +6,10 @@
  const password2 = document.getElementById('password2');
 
  form.addEventListener('submit', (e) => {
-     e.preventDefault();
+     e.preventDefault;
 
      checkInputs();
- });
+ };
 
  function checkInputs() {
      //getting the values from the inputs//
@@ -42,7 +42,7 @@
         setErrorFor(password, 'Password cannot be password');
     }else {
         setSuccessFor(password);
-    }
+    })
     //validation for second password
 
     if(userpassword2Value === '') {
